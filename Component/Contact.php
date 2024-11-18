@@ -17,7 +17,6 @@
             min-height: 100vh;
             background-color: #243642; /* Updated background color */
         }
-
         .good {
             width: 100%;
             display: flex;
@@ -168,14 +167,24 @@
                 margin-left: -10px;
               
             }
+           
     
         }
+        .navhead{ 
+            position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 100.5vw;
+        }
+
     </style>
 </head>
 <body>
+<div class="navhead"> <?php include './Nav.php'; ?></div>
 
 <div class="good">
     <!-- Address & Contact Information -->
+     
     <div class="x">
         <div class="container">
             <h1>ADRS TECHNOLOGY</h1>
@@ -208,10 +217,10 @@
         <!-- Message Form -->
         <div class="containr">
             <h4>Send Us a Message</h4>
-            <form>
+            <form action="../Controller/Contectinfo.php" method="POST">
                 <div class="second">
                     <div class="form-group">
-                        <input type="text" id="lastName" name="lastName" placeholder="Last Name" class="input" required>
+                        <input type="text" id="lastName" name="Name" placeholder="Last Name" class="input" required>
                     </div>
                     <div class="form-group">
                         <input type="email" id="email" name="email" placeholder="E-mail Address" class="input" required>
@@ -222,7 +231,7 @@
                         <input type="number" id="contact" name="contact" placeholder="Contact Number" class="input" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="dob" name="dob" placeholder="D.O.B" class="input" required>
+                        <input type="date" id="dob" name="dob" placeholder="D.O.B" class="input" required>
                     </div>
                 </div>
                 <div class="form-group">
@@ -242,6 +251,7 @@
         </div>
     </div>
 </div>
+<!-- <?php include './Footer.php'; ?> -->
 
 </body>
 </html>

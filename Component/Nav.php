@@ -217,16 +217,16 @@ body{
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a style="color: #ffff;" class="nav-link active " href="index.php">Home</a>
+                        <a style="color: #ffff;" class="nav-link active " href="./home.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #ffff;" class="nav-link" href="Component/About_Us.php">About</a>
+                        <a style="color: #ffff;" class="nav-link" href="./About_Us.php">About</a>
                     </li>
                     <li class="nav-item">
                         <a style="color: #ffff;" class="nav-link" href="./Services.php">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #ffff;" class="nav-link" href="./training.php">Training</a>
+                        <a style="color: #ffff;" class="nav-link" href="./Our_team.php">Our_Team</a>
                     </li>
                     <li class="nav-item">
                         <a style="color: #ffff;" class="nav-link" href="./Register.php">Registration</a>

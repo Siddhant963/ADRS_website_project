@@ -186,7 +186,7 @@ footer {
         </div>
     
         <div class="footer-bottom">
-            <p>ADRS PVT LTD - All rights reserved - 2016</p>
+            <p>ADRS PVT LTD - All rights reserved - 2024</p>
         </div>
     </footer>
 </html>

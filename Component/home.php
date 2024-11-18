@@ -660,8 +660,8 @@ a{
 </head>
 
 <body>
-    <?php include 'Component/Nav.php'; ?>
-    <!-- <nav class=" navc navbar navbar-expand-lg navbar-light ">
+    <!-- <?php include 'Nav.php'; ?> -->
+    <nav class=" navc navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
             <a class="nav" href="#">
                 <img src="ADRSORIGNAL logo.png" alt="Logo" style="color: #ffff;" class="logo1">
@@ -673,10 +673,11 @@ a{
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a style="color: #ffff;" class="nav-link active " href="#">Home</a>
+                        <a style="color: #ffff;" class="nav-link active " href="#
+                        ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #ffff;" class="nav-link" href="#">About</a>
+                        <a style="color: #ffff;" class="nav-link" href="./About_us.php">About</a>
                     </li>
                     <li class="nav-item">
                         <a style="color: #ffff;" class="nav-link" href="#">Service</a>
@@ -702,20 +703,20 @@ a{
                 </ul>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
     <div class="carousal">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
           <div class="carousel-item active">
                     <div>
-                      <img src="https://media.istockphoto.com/id/1443560890/photo/digital-marketing-business-technology-concept-website-advertisement-email-social-media.jpg?s=612x612&w=0&k=20&c=S7d_Mof_fEsM69inW540APogoXkz-eA23XE1AIhTaBA=" class="a  d-block w-100" alt="...">
+                      <img src="../src/assets/images/carausal2.jpg" class="a  d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="https://socialmediahq.com/wp-content/uploads/2017/06/shutterstock_391732621.jpg" class="a  d-block w-100" alt="...">
+                      <img src="../src/assets/images/carausal2.jpg" class="a  d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9wv7WSLMkbkxdODsNF51rlyhOaOm29OeViA&s" class="a  d-block w-100" alt="...">
+                      <img src="../src/assets/images/carausal2.avif" class="a  d-block w-100" alt="...">
                     </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -995,7 +996,7 @@ a{
     <footer>
         <div class="footer-content">
             <div class="column">
-                <h3 ><img class="tushar" src="src/assets/images/ADRS_logo.png" alt=""></h3>
+                <h3 ><img class="tushar" src="./src/assets/images/ADRS_logo.png" alt=""></h3>
                 <p>Get in touch:</p>
                 <p>xyz address, Adhartal Jabalpur, Madhya Pradesh 482004</p>
                 <p>Contact No:</p>
@@ -1050,16 +1051,14 @@ a{
             <p>ADRS PVT LTD - All rights reserved - 2016</p>
         </div>
     </footer>
-    
-    
-    
-    
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script>
+    
+</script>
+
+        
 </body>
 
 </html>

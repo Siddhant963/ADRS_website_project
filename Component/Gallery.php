@@ -12,6 +12,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         font-weight: 50px;
+      
    }
    .img-gallary{
        height: 150px;
@@ -23,7 +24,34 @@
     height: 200px;
    
    }
+   .collaege{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    
+   }
+   .photo{ 
+    height: 40vh;
+    width: 30vw;
+    margin-top: 20px;
+    border: 4px solid white;
+    border-radius: 10px;
+   }
+   .photo:hover{ 
+    transform: scale(1.1);
+    transition: transform 0.5s;
+   }
+   @media only screen and (max-width: 600px) {
+.photo{
+    height: 20vh;
+    width: 30vw;
+ 
+  }
+}
 </style>
+<?php include './Nav.php'; ?>
 <body>
     <div class="container-fluid">
         <div class="row">
@@ -33,7 +61,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="img-gallary-div col-12 col-lg-3 col-md-4">
             <img class="img-gallary" src="">
@@ -63,6 +91,22 @@
                         </div>
                      
         </div>
+    </div> -->
+
+    <div class="collaege container ">
+        <img src="../src/assets/images/p1.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p5.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p2.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p3.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p4.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p6.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p7.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p1.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p5.jpg" alt="" class="photo">
+        <img src="../src/assets/images/p4.jpg" alt="" class="photo">
     </div>
+   <div>
+   
+   </div>
 </body>
 </html>

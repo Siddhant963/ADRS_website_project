@@ -57,7 +57,7 @@ h6{
         color: white;
         text-align: center;
 margin-bottom: -2vh;
-        height: 5vh;
+        height: 8vh;
         padding-top: 1vh;
         font-weight: bold;
     }
@@ -67,7 +67,7 @@ z-index: 2;
     } 
 </style>
 <body>
-
+ <div><?php include './Nav.php'; ?></div>
 <div class="header">
     <h1>Services</h1>
     <h6>Home-Services</h6>
@@ -77,31 +77,31 @@ z-index: 2;
     <div class="row justify-content-center">
         <div class="col-12 col-lg-4 mb-4">
             <div class="card">
-                <div class="card-image" style="background-image: url('web_page.webp');"></div>
+                <div class="card-image" style="background-image: url('../src/assets/images/webdev.jpg');"></div>
                 <div class="card-title">Web Development</div>
             </div>
         </div>
         <div class="col-12 col-lg-4 mb-4">
             <div class="card">
-                <div class="card-image" style="background-image: url('app.webp');"></div>
+                <div class="card-image" style="background-image: url('../src/assets/images/app_dev.avif');"></div>
                 <div class="card-title">Application Development</div>
             </div>
         </div>
         <div class="col-12 col-lg-4 mb-4">
             <div class="card">
-                <div class="card-image" style="background-image: url('image.png');"></div>
+                <div class="card-image" style="background-image: url('../src/assets/images/software_dev.avif');"></div>
                 <div class="card-title">Software Development</div>
             </div>
         </div>
         <div class="col-12 col-lg-4 mb-4">
             <div class="card">
-                <div class="card-image" style="background-image: url('digital-marketing.webp');"></div>
+                <div class="card-image" style="background-image: url('../src/assets/images/digital_marketing.avif');"></div>
                 <div class="card-title">Digital Marketing</div>
             </div>
         </div>
         <div class="col-12 col-lg-4 mb-4">
             <div class="card">
-                <div class="card-image" style="background-image: url('logo\ design.webp');"></div>
+                <div class="card-image" style="background-image: url('../src/assets/images/logo_designing.jpg');"></div>
                 <div class="card-title">Logo Design</div>
             </div>
         </div>
@@ -109,13 +109,14 @@ z-index: 2;
         
         <div class="col-12 col-lg-4 mb-4">
             <div class="card">
-                <div class="card-image" style="background-image: url('img-graphic-designer.webp');"></div>
+                <div class="card-image" style="background-image: url('../src/assets/images/grapgic.avif');"></div>
                 <div class="card-title">Graphic Design</div>
             </div>
         </div>
         
     </div>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

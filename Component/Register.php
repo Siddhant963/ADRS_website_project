@@ -169,11 +169,12 @@ form .form-input .col-md-8 {
     </style>
 </head>
 <body>
+<?php include './Nav.php'; ?>
     <div class="main">
         <div class="container">
             <div class="mb10"></div>
             <div class="container">
-                <form action="#" class="form form-horizontal">
+                <form action="../Controller/Registerinfo.php" class="form form-horizontal" method="POST">
                         <legend>
                             <center>
                                 <h2><b>Registration Form</b></h2>
@@ -203,30 +204,6 @@ form .form-input .col-md-8 {
                                     <span class="input-group-addon">
                                         <i class="fa-solid fa-user"></i>                                    </span>
                                     <input name="Last_name" type="text" placeholder="Last Name" class="form-control" required>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Profile Image -->
-                        <div class="form-input">
-                            <label class="col-md-4 label-tag">Upload Profile Image <span class="danger">*</span></label>
-                            <div class="col-md-4 inputContainer">
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa-solid fa-file"></i>                                    </span>
-                                    <input name="profile" type="file" class="form-control" required>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Sign Image -->
-                        <div class="form-input">
-                            <label class="col-md-4 label-tag">Upload Sign Image <span class="danger">*</span></label>
-                            <div class="col-md-4 inputContainer">
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa-solid fa-file"></i>                                    </span>
-                                    <input name="sign" type="file" class="form-control" required>
                                 </div>
                             </div>
                         </div>
@@ -409,5 +386,6 @@ form .form-input .col-md-8 {
         input.parentElement.appendChild(calendar);  // Attach calendar under input box
         calendar.focus();
     }</script>
+    <?php include './Footer.php'; ?>
 </body>
 </html>

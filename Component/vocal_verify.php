@@ -109,7 +109,7 @@
 </head>
 
 <body>
-
+<?php include './Nav.php'; ?>
     <div class="mid">
         <div class="position-relative">
             <img class="img2" src="https://img.freepik.com/free-vector/gradient-futuristic-cyber-background_23-2149116407.jpg?t=st=1731678438~exp=1731682038~hmac=235dc38099cbdff2717ef9cb29f46b38672380a296e9d69360b1b2c3b8b5bec5&w=1800" alt="Verification Background">
@@ -127,6 +127,7 @@
         </div>
     </div>
 
+    <?php include './Footer.php'; ?>
 </body>
 
 </html>

@@ -22,7 +22,7 @@ body, html {
 }
 
 .header-img {
-    background-image: url("./pexels-divinetechygirl-1181316\ \(1\).jpg");
+    background-image: url("../src/assets/images/about_us2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +122,7 @@ body, html {
     padding: 20px;
     align-items: center;
     margin-bottom: 20px;
-    height: 34vh;
+    height: 37vh;
 }
 
 .pull-left1, .pull-left2, .pull-left3, .pull-left4, .pull-left5, .pull-left6 {
@@ -385,6 +385,7 @@ padding-bottom: 5vh;}
 
         </div>
     </div>
+    <?php include './Footer.php'; ?>
 
 
 </body>

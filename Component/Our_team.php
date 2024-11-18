@@ -103,6 +103,7 @@
 </head>
 
 <body>
+<?php include './Nav.php'; ?>
     <div class="container-fluid team-header-img d-flex align-items-center">
         <div class="team-content1">
             <p class="team-bFirstHeading text-light"><u>Our Team</u></p>
@@ -119,18 +120,18 @@
         <div class="row g-4 justify-content-center">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="team-card">
-                    <img src="abhisekh.html.jpg" alt="Abhishek Dubey">
+                    <img src="../src/assets/images/abhishek.jpg" alt="Abhishek Dubey">
                     <h2 class="team-name">Abhishek Dubey</h2>
                     <p class="team-card-text">Founder</p>
-                    <a href="#" class="btn-custom">Contact</a>
+                    <!-- <a href="#" class="btn-custom">Contact</a> -->
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="team-card">
-                    <img src="ritesh.jpg" alt="Ritesh Saket">
+                    <img src="../src/assets/images/ritesh.jpg" alt="Ritesh Saket">
                     <h2 class="team-name">Ritesh Saket</h2>
                     <p class="team-card-text">Co-Founder</p>
-                    <a href="#" class="btn-custom">Contact</a>
+                    <!-- <a href="#" class="btn-custom">Contact</a> -->
                 </div>
             </div>
         </div>
@@ -139,29 +140,30 @@
     <div class="container-fluid py-5">
         <p class="team-meet"><u>Our Technical Team</u></p>
         <div class="row g-4 justify-content-center">
-            <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4">
                 <div class="team-card">
-                    <img src="aman singh_jfif.webp" alt="Aman Singh">
-                    <h2 class="team-name">Aman Singh</h2>
-                    <a href="#" class="btn-custom">Contact</a>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="team-card">
-                    <img src="Siddhant_jfif.webp" alt="Siddhant Dubey">
+                    <img src="../src/assets/images/Siddhant_jfif.webp" alt="Siddhant Dubey">
                     <h2 class="team-name">Siddhant Dubey</h2>
-                    <a href="#" class="btn-custom">Contact</a>
+                    <!-- <a href="#" class="btn-custom">Contact</a> -->
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="team-card">
-                    <img src="amanvis.html.jpg" alt="Aman Vishwakarma">
+                    <img src="../src/assets/images/aman singh_jfif.webp" alt="Aman Singh">
+                    <h2 class="team-name">Aman Singh</h2>
+                    <!-- <a href="#" class="btn-custom">Contact</a> -->
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="team-card">
+                    <img src="../src/assets/images/amann viskarma_jfif.webp" alt="Aman Vishwakarma">
                     <h2 class="team-name">Aman Vishwakarma</h2>
-                    <a href="#" class="btn-custom">Contact</a>
+                    <!-- <a href="#" class="btn-custom">Contact</a> -->
                 </div>
             </div>
         </div>
     </div>
+   
 </body>
 
 </html>

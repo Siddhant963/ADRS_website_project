@@ -105,7 +105,7 @@
 </head>
 
 <body>
-
+<?php include './Nav.php'; ?>
     <div class="mid">
         <div class="position-relative">
             <img class="img1" src="https://www.raysitworld.com/assets/img/service/bg_image.jpg" alt="Verification Background">
@@ -124,7 +124,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="title">Course Completion Certificate Verification</h5>
-                            <a href="verify_certificate.html" class="btn">Verify Now</a>
+                            <a href="./Course_veri.php" class="btn">Verify Now</a>
                         </div>
                     </div>
                 </div>
@@ -133,12 +133,12 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="title">Vocational Training Certificate Verification</h5>
-                            <a href="Vocational_training-cer.html" class="btn">Verify Now</a>
+                            <a href="./vocal_verify.php" class="btn">Verify Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <?php include './Footer.php'; ?>
 </body>
 </html>
