@@ -122,9 +122,11 @@
         <div class="input">
            <form action="../Controller/verify.php" method="GET">
            <input type="text" id="lastName" name="certification_number" placeholder="Enter your registered number" class="form-control" required>
+           <input type="submit" class="btn btn-primary>
         </div>
         <div class="input">
-            <a href="" class="btn btn-primary">Search</a>
+            <!-- <a href="" class="btn btn-primary">Search</a> -->
+             <!-- <input type="submit" class="btn btn-primary> -->
            </form>
         </div>
     </div>

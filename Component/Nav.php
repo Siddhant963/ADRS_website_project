@@ -217,7 +217,7 @@ body{
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a style="color: #ffff;" class="nav-link active " href="./home.php">Home</a>
+                        <a style="color: #ffff;" class="nav-link active " href="../index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a style="color: #ffff;" class="nav-link" href="./About_Us.php">About</a>
