@@ -29,7 +29,14 @@ body, html {
     height: 100vh;
     width: 100vw;
 }
+@media (max-width : 450px){
+    .header-img {
+       height: 70vh;
+       width: 100vw;
+       background-size:cover;
 
+    }
+}
 .content1 {
     margin-left: 10vw;
     margin-top: 40vh;
@@ -62,7 +69,7 @@ body, html {
 }
 
 .heading1 {
-    font-size: 60px;
+    font-size: 3rem;
     margin-left: 8vw;
     margin-top: 5vh;
 }
@@ -71,6 +78,7 @@ body, html {
     margin-top: 5vh;
     font-size: 38px;
     margin-left: 8vw;
+    font-weight: bolder;
 }
 
 .b-part2 {
@@ -172,8 +180,8 @@ padding-bottom: 5vh;}
                         <p class="bFirstHeading"style="color: #ffff">About Us</p>
                         <div class="bFirstSubHeading d-flex flex-row">
                             <!-- <button class="btn text-light"> -->
-                            <a href="" class="homeLink" style="color: #ffff"> Home - </a>
-                            <p class="aboutUs"style="color: #ffff"> About Us</p>
+                            <a href="" class="homeLink" style="color: #ffff"> BUILD YOUR FUTURE WITH US </a>
+                            <!-- <p class="aboutUs"style="color: #ffff"> Revolutionize Your Operations with Our Technology, and Expiernece a fastest solution providing team</p> -->
                         </div>
                     </div>
                     <!-- </div> -->

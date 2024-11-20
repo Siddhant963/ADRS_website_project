@@ -69,8 +69,8 @@ z-index: 2;
 <body>
  <div><?php include './Nav.php'; ?></div>
 <div class="header">
-    <h1>Services</h1>
-    <h6>Home-Services</h6>
+    <h1>Services...</h1>
+    <!-- <h6>Home-Services</h6> -->
 </div>
 
 <div class="container my-5">

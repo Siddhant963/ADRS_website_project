@@ -26,11 +26,21 @@
             height: 100vh;
             width: 100%;
         }
+        @media (max-width : 450px){ 
+            /* For mobile phones: */
+            .team-header-img {
+            height: 50vh;
+        }
+        pre{ 
+          display: none;
+        }
+     }
 
         .team-content1 {
             margin-left: 10vw;
             margin-top: 40vh;
         }
+       
 
         .team-bFirstHeading {
             font-size: 60px;
@@ -39,14 +49,15 @@
         }
 
         .team-link {
-            color: #387478;
-            font-size: 20px;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 30px;
             text-decoration: none;
             margin-right: 10px;
         }
 
         .team-link:hover {
-            text-decoration: underline;
+            /* text-decoration: underline; */
         }
 
         .team-meet {
@@ -108,9 +119,10 @@
         <div class="team-content1">
             <p class="team-bFirstHeading text-light"><u>Our Team</u></p>
             <div>
-                <a href="#" class="team-link">Home</a>
-                <a href="#" class="team-link">About Us</a>
-                <span class="team-link">Our Team</span>
+                <!-- <a href="#" class="team-link">Home</a>
+                <a href="#" class="team-link">About Us</a> -->
+                <span class="team-link"><pre>Revolutionize Your Operations with Our Technology, 
+                    and Expiernece a fastest solution providing team </pre> </span>
             </div>
         </div>
     </div>
@@ -130,6 +142,14 @@
                 <div class="team-card">
                     <img src="../src/assets/images/ritesh.jpg" alt="Ritesh Saket">
                     <h2 class="team-name">Ritesh Saket</h2>
+                    <p class="team-card-text">Co-Founder</p>
+                    <!-- <a href="#" class="btn-custom">Contact</a> -->
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="team-card">
+                    <img src="../src/assets/images/piyush2.jpg" alt="Ritesh Saket">
+                    <h2 class="team-name">Piyush khare </h2>
                     <p class="team-card-text">Co-Founder</p>
                     <!-- <a href="#" class="btn-custom">Contact</a> -->
                 </div>
